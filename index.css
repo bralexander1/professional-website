@@ -1,0 +1,58 @@
+html,body {
+    background-color: rgb(225,241,253);
+    margin: 0;
+    padding: 0;
+}
+
+.picture {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 150px 100%;
+    column-gap: 5px;
+    background-color: rgb(18, 39, 92);
+    color: rgb(225,241,253);
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .picture h1 {
+    font-size: 50px;
+   }
+   
+   img {
+     max-width: 100%;
+     max-height: 100%;
+   }
+
+#welcome {
+    background-color: rgb(70, 99, 172);
+    color: rgb(225,241,253)
+}
+
+#welcome h1 {
+    font-family: "verdana", sans-serif;
+}
+
+.topnav {
+    background-color: rgb(193,216,240);
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 31px; //16px if want to make them go to the left//
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(114, 135, 188);
+    color: white;
+}
+
+.topnav a.active {
+    background-color: rgb(114, 135, 188);
+    color: white;
+  }
